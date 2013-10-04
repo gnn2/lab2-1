@@ -13,7 +13,26 @@ body {
     padding: 10px;
 }
 
+.logo {
+	float: left; 
+
+}
+
+.compname {
+	font: 'Boogaloo';
+	font-size: 36px ; 
+	font-weight: 120%; 
+	color: #116189;
+
+
+}
 .motto {
-	
+	font-size: 120%;  
+	font-style: italic;
+}
+nav {
+	background-color: #D74710; 
+	color: #FFFFFF;
+	font-weight: bold; 
 }
 
