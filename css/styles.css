@@ -12,6 +12,12 @@ body {
     font-size: 18px;
     padding: 10px;
 }
+div.content-box {
+	width: 80%; 
+	background-color: #FFFFFF; 
+	margin: 0 auto;
+	box-shadow: 2px 2px 6px #555;
+	}
 
 .logo {
 	float: left; 
@@ -30,9 +36,30 @@ body {
 	font-size: 120%;  
 	font-style: italic;
 }
-nav {
-	background-color: #D74710; 
-	color: #FFFFFF;
-	font-weight: bold; 
+
+nav ul {
+	background-color: #D74710;
+	padding-right: 4cm; 
+
 }
 
+nav li {
+	display: inline-block;
+
+}
+
+nav a {
+	display: inline-block;
+	padding:10px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+nav a:link,
+nav a:visited {
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #FF9D45;
+}
